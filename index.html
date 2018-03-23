@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>studioTeaTwo</title>
+    <link rel="stylesheet" type="text/css" href="layout.css">
+    <script type="module" src="components/index.js"></script>
+  </head>
+  <body>
+    <div id="container">
+      <header>
+        <span class="notice">Made by pure web components. Please use Chrome.</span>
+        <h1>studioTeaTwo</h1>
+        <p class="copy">More features, more future.</p>
+      </header>
+      <div id="main">
+        <nav>
+          <ul>
+            <li><x-tab tabIndex="about" selected>about</x-tab></li>
+            <li><x-tab tabIndex="contact">contact</x-tab></li>
+          </ul>
+        </nav>
+        <div id="tab-panel"></div>
+      </div>
+      <footer>Copyright © 2018 studioTeaTwo. All Rights Reserved.</footer>
+    </div>
+  </body>
+</html>

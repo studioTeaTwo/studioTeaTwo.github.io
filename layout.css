@@ -1,0 +1,73 @@
+body, html {
+  margin: 0px;
+}
+
+#container {
+  width: 100%;
+  position: relative;
+}
+
+header {
+  height: 120px;
+  background: white;
+  border-bottom: solid 5px #5d627b;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+  padding-top: 5px;
+  color: #5d627b;
+}
+
+#main {
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 8px 25px 8px;
+}
+
+#tab-panel {
+  height: calc(100vh - 206px);
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 20px;
+  padding-bottom: 5px;
+  background-color: white;
+  text-align: center;
+  font-size: 0.7em;
+  font-style: italic;
+}
+
+/* below: not layout */
+
+nav ul li {
+  display: inline;
+  background-color: rgb(209, 203, 203);
+  margin: 10px;
+  padding: 10px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.notice {
+  font-size: 0.7em;
+}
+
+.copy {
+  margin: 0px;
+  text-align: center;
+}
+
+x-tab[selected] {
+  border-bottom: solid 6px #aac5de;
+}
+
+#tab-panel p {
+  word-wrap: break-word;
+}
