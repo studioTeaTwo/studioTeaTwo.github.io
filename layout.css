@@ -41,7 +41,7 @@ footer {
   font-style: italic;
 }
 
-/* below: not layout */
+/* below: App Shell */
 
 nav ul li {
   display: inline;
@@ -62,12 +62,4 @@ h1 {
 .copy {
   margin: 0px;
   text-align: center;
-}
-
-x-tab[selected] {
-  border-bottom: solid 6px #aac5de;
-}
-
-#tab-panel p {
-  word-wrap: break-word;
 }
