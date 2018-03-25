@@ -1,11 +1,31 @@
 export default class AboutComponent extends HTMLElement {
+  static get observedAttributes() {
+    return ['active'];
+  }
+
+  get active() {
+    return this.hasAttribute('active');
+  }
+
+  set active(val) {
+    if (val) {
+      this.setAttribute('active', '');
+    } else {
+      this.removeAttribute('active');
+    }
+  }
+
   constructor() {
     super();
     this.attachShadow({mode: 'open'});
   }
 
-  connectedCallback() {
-    this._render();
+  attributeChangedCallback(active, oldValue, newValue) {
+    if (this.active) {
+      this._render();
+    } else {
+      this.shadowRoot.innerHTML = '';
+    }
   }
 
   _getContentBiography() {
@@ -45,32 +65,32 @@ export default class AboutComponent extends HTMLElement {
         }
         p {
           word-wrap: break-word;
-        }      
+        }  
       </style>
       <section id="biography">
-        <h2>Biography</h2> 
+        <slot name="biography"></slot>
       </section>
       <section id="products">
-        <h2>Products</h2>
+        <slot name="products"></slot>
       </section>
       <section id="slides">
-        <h2>Slides</h2>
+        <slot name="slides"></slot>
       </section>
       <section id="articles">
-        <h2>Articles</h2>
+        <slot name="articles"></slot>
       </section>
     `;
 
     this._getContentBiography().then(content => {
-      const section = this.shadowRoot.querySelector('#biography');
+      const section = this.shadowRoot.querySelector('section#biography');
       const p = document.createElement('p');
-      p.textContent = content
+      p.textContent = content;
       section.appendChild(p);
     });
 
     ['products', 'slides', 'articles'].forEach(category => {
       this._getContentList(category).then(content => {
-        const section = this.shadowRoot.querySelector(`#${category}`);
+        const section = this.shadowRoot.querySelector(`section#${category}`);
         const fragment = this._createList(content);
         section.appendChild(fragment);
       })

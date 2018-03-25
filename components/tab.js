@@ -51,11 +51,14 @@ export default class TabComponent extends HTMLElement {
 
   _switchTabPanel() {
     const tabPanel = document.querySelector('#tab-panel');
+    const activeTarget = `x-${this.tabId}`;
     for (let element of tabPanel.children) {
-      tabPanel.removeChild(element);
+      if (activeTarget === element.localName) {
+        element.setAttribute('active', '');
+      } else {
+        element.removeAttribute('active');
+      }
     };
-    const activeTarget = document.createElement(`x-${this.tabId}`);
-    tabPanel.appendChild(activeTarget);
   }
 }
 

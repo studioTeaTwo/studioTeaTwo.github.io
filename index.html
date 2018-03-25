@@ -3,7 +3,9 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-site-verification" content="df_aJd_EJXlo5gXs_Can3HbStgzAQwh1DyGSTUnICQE" />
     <title>studioTeaTwo</title>
+    <meta name="description" content="studioTeaTwoのポートフォリオサイトです。Angular/react/HoloLensをやっています。">
     <link rel="stylesheet" type="text/css" href="layout.css">
     <script type="module" src="components/index.js"></script>
   </head>
@@ -21,7 +23,19 @@
             <li><x-tab tabId="contact">contact</x-tab></li>
           </ul>
         </nav>
-        <div id="tab-panel"></div>
+        <div id="tab-panel">
+          <x-about>
+            <h2 slot="biography">Biography</h2> 
+            <h2 slot="products">Products</h2>
+            <h2 slot="slides">Slides</h2>
+            <h2 slot="articles">Articles</h2>
+          </x-about>
+          <x-contact>
+            <p>eメールかtwitterでお問い合わせください。twitterはDMを解放しています。</p>
+            <p>studioTeaTwo@gmail.com</p>
+            <p><a href="https://twitter.com/studioTeaTwo">@studioTeaTwo</a></p>
+          </x-contact>
+        </div>
       </div>
       <footer>Copyright © 2018 studioTeaTwo. All Rights Reserved.</footer>
     </div>

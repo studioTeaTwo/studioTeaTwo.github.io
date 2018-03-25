@@ -1,23 +1,41 @@
 export default class ContactComponent extends HTMLElement {
+  static get observedAttributes() {
+    return ['active'];
+  }
+
+  get active() {
+    return this.hasAttribute('active');
+  }
+
+  set active(val) {
+    if (val) {
+      this.setAttribute('active', '');
+    } else {
+      this.removeAttribute('active');
+    }
+  }
+
   constructor() {
     super();
     this.attachShadow({mode: 'open'});
   }
 
-  connectedCallback() {
-    this._render();
+  attributeChangedCallback(active, oldValue, newValue) {
+    if (this.active) {
+      this._render();
+    } else {
+      this.shadowRoot.innerHTML = '';
+    }
   }
 
   _render() {
     this.shadowRoot.innerHTML = `
       <style>
-        p {
+        #contentsSlot::slotted(p) {
           word-wrap: break-word;
         }      
       </style>
-      <p>eメールかtwitterでお問い合わせください。twitterはDMを解放しています。</p>
-      <p>studioTeaTwo@gmail.com</p>
-      <p><a href="https://twitter.com/studioTeaTwo">@studioTeaTwo</a></p>
+      <slot id="contentsSlot"></slot>
     `;
   }
 }
