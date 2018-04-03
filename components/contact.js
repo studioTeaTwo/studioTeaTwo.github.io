@@ -33,7 +33,10 @@ export default class ContactComponent extends HTMLElement {
       <style>
         #contentsSlot::slotted(p) {
           word-wrap: break-word;
-        }      
+        }
+        #contentsSlot::slotted(oo-button) {
+          margin-bottom: 10px;
+        } 
       </style>
       <slot id="contentsSlot"></slot>
     `;
