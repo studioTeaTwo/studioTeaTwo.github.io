@@ -1,11 +1,23 @@
 {
   "slides": [
     {
+      "title": "クライアントサイドSEOという思考実験",
+      "url": "https://docs.google.com/presentation/d/e/2PACX-1vTOrkxfxRpy4TyHH0cTqvEJvZHjPDzeWN2CLi-LrCdzjRba3QRw0flTwkh097DLMzsgACjF8bBqzSJA/pub?start=false&loop=false&delayms=3000"
+    },
+    {
+      "title": "slotを制する",
+      "url": "https://docs.google.com/presentation/d/e/2PACX-1vSq8zVyfYla8-M2aS0aFxoqgk9_H9f1Ks4UPjg19goToLTctsDzp2Gym_ZZ6MapdCqtQov5oisU9jlp/pub?start=false&loop=false&delayms=3000"
+    },
+    {
+      "title": "HoloLensのイベントをJavaScriptに伝達させてみる",
+      "url": "https://docs.google.com/presentation/d/e/2PACX-1vSI9patM_4BxzlL_AyGQZpxjaiEPGHR1r8JSRxD74z3WXQUJINzibzS4-DcEH63CCsDCgzIRw9YivJE/pub?start=false&loop=false&delayms=3000"
+    },
+    {
       "title": "javascriptでHoloLensする",
       "url": "https://docs.google.com/presentation/d/e/2PACX-1vRJU6S1MCLadVvmSJeeeu3bG4bfWMvPjkwGN-h5FImBnSGo5DVbUawfku5rG1jJjOLOPMpIKUJ6dxWR/pub?start=false&loop=false&delayms=3000"
     },
     {
-      "title": "main.bundleの削減",
+      "title": "main.bundleのサイズ削減",
       "url": "https://docs.google.com/presentation/d/e/2PACX-1vRNTRKpleHJysA2x_yljNPtZI2Dm_wO5hvgYadW6XblLd2ICFUdb0z4mRuV_1Fi2h4u9ViOEMyCnkpy/pub?start=false&loop=false&delayms=3000"
     },
     {
