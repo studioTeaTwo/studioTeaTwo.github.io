@@ -63,6 +63,12 @@ export default class AboutComponent extends HTMLElement {
         ul {
           list-style:none;
         }
+        ul li {
+          margin-bottom: 0.5em;
+        }
+        ul li:last-child {
+          margin-bottom: 0px;
+        }
         p {
           word-wrap: break-word;
         }  
