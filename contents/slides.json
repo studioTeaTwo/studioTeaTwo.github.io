@@ -1,6 +1,10 @@
 {
   "slides": [
     {
+      "title": "Angularをlit-htmlで書けるようにする",
+      "url": "https://docs.google.com/presentation/d/e/2PACX-1vQtWyEUSVpR8CPGh9hMMMDl7t0p2ozTSB6GB77VoNbwfZK68bnh9hMj7u3IodfGFiaPUPoPH7kS8P7Q/pub?start=false&loop=false&delayms=3000"
+    },
+    {
       "title": "AngularでPWAを進める",
       "url": "https://docs.google.com/presentation/d/e/2PACX-1vS5Bqu6DQuoS16KfvEp6UigvSwV80KySLmtupk7mHSZ24Zt5kZ8ZU83NtNvWx6ZSx6y4yQvC27yyIvr/pub?start=false&loop=false&delayms=3000"
     },
