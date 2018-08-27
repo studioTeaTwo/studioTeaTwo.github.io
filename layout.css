@@ -15,6 +15,38 @@ header {
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
   padding-top: 5px;
   color: #5d627b;
+
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-areas:
+    "notice notice github"
+    ". title ."
+    ". copy .";
+}
+
+.notice {
+  grid-area: notice;
+  font-size: 0.7em;
+}
+
+.github {
+  grid-area: github;
+  margin-left: auto;
+  margin-right: 5px;
+  text-align: right;
+}
+
+h1 {
+  grid-area: title;
+  margin: 0px;
+  text-align: center;
+}
+
+.copy {
+  grid-area: copy;
+  margin: 0px;
+  text-align: center;
 }
 
 #main {
@@ -22,12 +54,6 @@ header {
   margin-left: auto;
   margin-right: auto;
   padding: 0 8px 25px 8px;
-}
-
-#tab-panel {
-  height: calc(100vh - 211px);
-  overflow-y: scroll;
-  -webkit-overflow-scrolling: touch;
 }
 
 footer {
@@ -44,24 +70,16 @@ footer {
 
 /* below: App Shell */
 
+#tab-panel {
+  height: calc(100vh - 211px);
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
 nav ul li {
   display: inline;
   background-color: rgb(209, 203, 203);
   border-radius: 10px;
   margin: 10px;
   padding: 10px;
-}
-
-h1 {
-  text-align: center;
-  margin-bottom: 0px;
-}
-
-.notice {
-  font-size: 0.7em;
-}
-
-.copy {
-  margin: 0px;
-  text-align: center;
 }
