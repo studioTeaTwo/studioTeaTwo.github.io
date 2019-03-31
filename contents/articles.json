@@ -1,8 +1,16 @@
 {
   "articles": [
     {
+      "title": "Mediumの記事一覧",
+      "url": "https://medium.com/@studioteatwo"
+    },
+    {
       "title": "Qiitaの記事一覧",
       "url": "https://qiita.com/search?q=user%3Astudioteatwo&sort=created"
+    },
+    {
+      "title": "はてなブログの記事一覧",
+      "url": "http://teatwo.hatenablog.com/"
     }
   ]
 }
