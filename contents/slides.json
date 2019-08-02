@@ -1,6 +1,10 @@
 {
   "slides": [
     {
+      "title": "auditのCI組み込みやlintの社内PKG化",
+      "url": "https://docs.google.com/presentation/d/e/2PACX-1vRHAqYbF0nTrAgPWe1JDwAwagYIxmaAaqdCViQ5C4d1L-S1EaciumO79jV6i0yv0AXB17gA4wvTKxb_/pub?start=true&loop=false&delayms=3000"
+    },
+    {
       "title": "Angularをlit-htmlで書けるようにする",
       "url": "https://docs.google.com/presentation/d/e/2PACX-1vQtWyEUSVpR8CPGh9hMMMDl7t0p2ozTSB6GB77VoNbwfZK68bnh9hMj7u3IodfGFiaPUPoPH7kS8P7Q/pub?start=false&loop=false&delayms=3000"
     },
