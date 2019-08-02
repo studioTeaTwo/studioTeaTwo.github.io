@@ -1,16 +1,34 @@
 {
   "articles": [
     {
+      "title": "dev.toの記事一覧",
+      "url": "https://dev.to/studioteatwo",
+      "lang": "eng"
+    },
+    {
+      "title": "qrunchの記事一覧",
+      "url": "https://qrunch.net/@studioTeaTwo",
+      "lang": "ja"
+    },
+    {
+      "title": "crieitの記事一覧",
+      "url": "https://crieit.net/users/studioTeaTwo",
+      "lang": "ja"
+    },
+    {
       "title": "Mediumの記事一覧",
-      "url": "https://medium.com/@studioteatwo"
+      "url": "https://medium.com/@studioteatwo",
+      "lang": "eng"
     },
     {
       "title": "Qiitaの記事一覧",
-      "url": "https://qiita.com/search?q=user%3Astudioteatwo&sort=created"
+      "url": "https://qiita.com/search?q=user%3Astudioteatwo&sort=created",
+      "lang": "ja"
     },
     {
       "title": "はてなブログの記事一覧",
-      "url": "http://teatwo.hatenablog.com/"
+      "url": "http://teatwo.hatenablog.com/",
+      "lang": "ja"
     }
   ]
 }

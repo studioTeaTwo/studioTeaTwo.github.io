@@ -48,7 +48,10 @@ export default class AboutComponent extends HTMLElement {
     contents.forEach(content => {
       const li = document.createElement('li');
       const a = document.createElement('a');
-      a.textContent = content.title
+      if (content.lang) {
+        content.title = `<${content.lang === 'ja' ? '日本語': '英語'}>${content.title}`
+      }
+      a.textContent = content.title;
       a.href = content.url;
       li.appendChild(a);
       ul.appendChild(li);
