@@ -69,6 +69,10 @@ export default class AboutComponent extends HTMLElement {
         ul li:last-child {
           margin-bottom: 0px;
         }
+        ul>li>a {
+          text-decoration-style:wavy;
+          background:linear-gradient(transparent 70%, #FFFF00 0%);
+        }
         p {
           word-wrap: break-word;
         }  
