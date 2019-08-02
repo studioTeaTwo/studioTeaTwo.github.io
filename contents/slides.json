@@ -1,7 +1,7 @@
 {
   "slides": [
     {
-      "title": "auditのCI組み込みやlintの社内PKG化",
+      "title": "auditのCI組み込みやlintの共通PKG化",
       "url": "https://docs.google.com/presentation/d/e/2PACX-1vRHAqYbF0nTrAgPWe1JDwAwagYIxmaAaqdCViQ5C4d1L-S1EaciumO79jV6i0yv0AXB17gA4wvTKxb_/pub?start=true&loop=false&delayms=3000"
     },
     {
