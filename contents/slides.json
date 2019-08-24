@@ -1,8 +1,12 @@
 {
   "slides": [
     {
+      "title": "ngコマンドでやるionic",
+      "url": "https://docs.google.com/presentation/d/e/2PACX-1vT5U9VxOv5uRrgo5Skf4ZiwzA5NikCQOt9QZmg_zJtNpt40OzCXqwsbeQ-Gt9oJU1XyXoeWMXRU5qch/pub?start=false&loop=false&delayms=3000"
+    },
+    {
       "title": "auditのCI組み込みやlintの共通PKG化",
-      "url": "https://docs.google.com/presentation/d/e/2PACX-1vRHAqYbF0nTrAgPWe1JDwAwagYIxmaAaqdCViQ5C4d1L-S1EaciumO79jV6i0yv0AXB17gA4wvTKxb_/pub?start=true&loop=false&delayms=3000"
+      "url": "https://docs.google.com/presentation/d/e/2PACX-1vRHAqYbF0nTrAgPWe1JDwAwagYIxmaAaqdCViQ5C4d1L-S1EaciumO79jV6i0yv0AXB17gA4wvTKxb_/pub?start=false&loop=false&delayms=3000"
     },
     {
       "title": "Angularをlit-htmlで書けるようにする",
