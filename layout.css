@@ -1,12 +1,57 @@
 body, html {
   margin: 0px;
   height: 100%;
+  overflow-y: hidden;
+}
+
+h1 {
+  grid-area: title;
+  margin: 0px;
+  text-align: center;
 }
 
 #container {
   width: 100%;
   position: relative;
+  padding-bottom: 20px;/*←footerの高さ*/
 }
+
+/* navigation */
+
+#tab-panel {
+  height: calc(100vh - 255px); /* 変数をサポートしていないブラウザのフォールバック */
+  height: calc(var(--vh, 1vh) - 255px);
+}
+
+nav ul li {
+  display: inline;
+  background-color: rgb(209, 203, 203);
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+}
+
+nav {
+  max-width: 640px;
+  margin: auto;
+}
+
+/* content */
+
+#main {
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+.content {
+  position: relative;
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 8px 25px 8px;
+}
+
+/* header/footer */
 
 header {
   height: 120px;
@@ -37,25 +82,6 @@ header {
   text-align: right;
 }
 
-h1 {
-  grid-area: title;
-  margin: 0px;
-  text-align: center;
-}
-
-.copy {
-  grid-area: copy;
-  margin: 0px;
-  text-align: center;
-}
-
-#main {
-  max-width: 640px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0 8px 25px 8px;
-}
-
 footer {
   position: absolute;
   bottom: 0;
@@ -68,18 +94,8 @@ footer {
   font-style: italic;
 }
 
-/* below: App Shell */
-
-#tab-panel {
-  height: calc(100vh - 211px);
-  overflow-y: scroll;
-  -webkit-overflow-scrolling: touch;
-}
-
-nav ul li {
-  display: inline;
-  background-color: rgb(209, 203, 203);
-  border-radius: 10px;
-  margin: 10px;
-  padding: 10px;
+.copy {
+  grid-area: copy;
+  margin: 0px;
+  text-align: center;
 }

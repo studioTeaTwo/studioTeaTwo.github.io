@@ -8,40 +8,47 @@
     <meta name="description" content="studioTeaTwoのポートフォリオサイトです。Angular/react/AR(augmented reality)をやっています。">
     <link rel="stylesheet" type="text/css" href="layout.css">
     <script type="module" src="components/index.js"></script>
+    <script type="text/javascript">
+      // for smartphone
+      let vh = window.innerHeight;
+      document.documentElement.style.setProperty('--vh', `${vh}px`);
+    </script>
   </head>
   <body>
     <div id="container">
       <header>
-        <span class="notice">Made by pure web components. Please use Chrome.</span>
+        <span class="notice">Made by pure web components</span>
         <a class="github" href="https://github.com/studioTeaTwo/studioTeaTwo.github.io"><img src="assets/GitHub-Mark-32px.png" /></a>
         <h1>studioTeaTwo</h1>
         <p class="copy">More features, more future.</p>
       </header>
+      <nav>
+        <ul>
+          <li><x-tab tabId="about" selected>about</x-tab></li>
+          <li><x-tab tabId="contact">contact</x-tab></li>
+        </ul>
+      </nav>
       <div id="main">
-        <nav>
-          <ul>
-            <li><x-tab tabId="about" selected>about</x-tab></li>
-            <li><x-tab tabId="contact">contact</x-tab></li>
-          </ul>
-        </nav>
-        <div id="tab-panel">
-          <x-about>
-            <h2 slot="biography">Biography</h2> 
-            <h2 slot="products">Products</h2>
-            <h2 slot="slides">Slides</h2>
-            <h2 slot="articles">Articles</h2>
-          </x-about>
-          <x-contact>
-            <p>eメールかtwitterでお問い合わせください。twitterはDMを解放しています。</p>
-            <p>studioTeaTwo@gmail.com</p>
-            <p><a href="https://twitter.com/studioTeaTwo">@studioTeaTwo</a></p>
-            <script async src="//elements.ooapp.co/stable/oo-button.js"></script>
-            <oo-button data-iam="5liYrUUxPtMogc71tcbLwcwb"></oo-button>
-            <oo-button data-iam="5liYrUUxPtMogc71tcbLwcwb" data-type="offer" data-scope="private"></oo-button>
-          </x-contact>
+        <div class="content">
+          <div id="tab-panel">
+            <x-about>
+              <h2 slot="biography">Biography</h2> 
+              <h2 slot="products">Products</h2>
+              <h2 slot="slides">Slides</h2>
+              <h2 slot="articles">Articles</h2>
+            </x-about>
+            <x-contact>
+              <p>eメールかtwitterでお問い合わせください。twitterはDMを解放しています。</p>
+              <p>studioTeaTwo@gmail.com</p>
+              <p><a href="https://twitter.com/studioTeaTwo">@studioTeaTwo</a></p>
+              <script async src="//elements.ooapp.co/stable/oo-button.js"></script>
+              <oo-button data-iam="5liYrUUxPtMogc71tcbLwcwb"></oo-button>
+              <oo-button data-iam="5liYrUUxPtMogc71tcbLwcwb" data-type="offer" data-scope="private"></oo-button>
+            </x-contact>
+          </div>
         </div>
       </div>
-      <footer>Copyright © 2018 studioTeaTwo. All Rights Reserved.</footer>
+      <footer>Copyright © 2019 studioTeaTwo. All Rights Reserved.</footer>
     </div>
   </body>
 </html>

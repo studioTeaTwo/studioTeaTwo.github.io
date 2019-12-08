@@ -73,8 +73,9 @@ export default class AboutComponent extends HTMLElement {
           margin-bottom: 0px;
         }
         ul>li>a {
-          text-decoration-style:wavy;
-          background:linear-gradient(transparent 70%, #FFFF00 0%);
+          color: #000;
+          text-decoration: none;
+          background: linear-gradient(transparent 70%, #aac5de 0%);
         }
         p {
           word-wrap: break-word;
