@@ -1,6 +1,11 @@
 {
   "articles": [
     {
+      "title": "zennの記事一覧",
+      "url": "https://zenn.dev/teatwo",
+      "lang": "ja"
+    },
+    {
       "title": "dev.toの記事一覧",
       "url": "https://dev.to/studioteatwo",
       "lang": "eng"
