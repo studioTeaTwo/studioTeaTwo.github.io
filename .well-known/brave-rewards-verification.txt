@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: studioteatwo.github.io
+Token: 8197b4f1651fc091c62e1753695ff1c77532b5dd601dd972f8fd382f2285f129
