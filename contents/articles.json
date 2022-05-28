@@ -1,6 +1,11 @@
 {
   "articles": [
     {
+      "title": "Spotlightの記事一覧",
+      "url": "https://spotlight.soy/studioteatwo",
+      "lang": "ja"
+    },
+    {
       "title": "zennの記事一覧",
       "url": "https://zenn.dev/teatwo",
       "lang": "ja"
