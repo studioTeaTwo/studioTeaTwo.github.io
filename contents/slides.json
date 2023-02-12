@@ -1,6 +1,10 @@
 {
   "slides": [
     {
+      "title": "分散SNSとLN統合について（特にNostr）",
+      "url": "https://docs.google.com/presentation/d/e/2PACX-1vTww3YhDLf_fOZP3FuXFLhKEFlesAq_3YzO_xjv1sEBPDtT_UTtoZqgmF3lFG7Vw0yFpMwISUuFD5MZ/pub?start=false&loop=false&delayms=3000"
+    },
+    {
       "title": "Umbrelを死活監視したい",
       "url": "https://docs.google.com/presentation/d/e/2PACX-1vSAmCiHBwGF0DQ_EqaXmo46f65lEqWRZ8wk-Fq3ShsBjITBLFg4BM7OFCkFQr3HytA1UP1Y4mTBlQzC/pub?start=false&loop=false&delayms=3000"
     },
