@@ -1,6 +1,10 @@
 {
   "slides": [
     {
+      "title": "Sidetree",
+      "url": "https://docs.google.com/presentation/d/e/2PACX-1vSNixZ-ySu92jB0Xljr8iFGRfTxgoPrKE0e7J06rC41j0pVLvlYdSkLPzUddH537NDNjpt_E9b5rEPJ/pub?start=false&loop=false&delayms=3000"
+    },
+    {
       "title": "分散SNSとLN統合について（特にNostr）",
       "url": "https://docs.google.com/presentation/d/e/2PACX-1vTww3YhDLf_fOZP3FuXFLhKEFlesAq_3YzO_xjv1sEBPDtT_UTtoZqgmF3lFG7Vw0yFpMwISUuFD5MZ/pub?start=false&loop=false&delayms=3000"
     },
