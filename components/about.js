@@ -49,7 +49,7 @@ export default class AboutComponent extends HTMLElement {
       const li = document.createElement('li');
       const a = document.createElement('a');
       if (content.lang) {
-        content.title = `<${content.lang === 'ja' ? '日本語': '英語'}>${content.title}`
+        content.title = `<${content.lang === 'ja' ? '日本語': 'English'}>${content.title}`
       }
       a.textContent = content.title;
       a.href = content.url;

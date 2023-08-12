@@ -1,37 +1,37 @@
 {
   "articles": [
     {
-      "title": "Spotlightの記事一覧",
+      "title": "Spotlight",
       "url": "https://spotlight.soy/studioteatwo",
       "lang": "ja"
     },
     {
-      "title": "zennの記事一覧",
+      "title": "zenn",
       "url": "https://zenn.dev/teatwo",
       "lang": "ja"
     },
     {
-      "title": "dev.toの記事一覧",
+      "title": "dev.to",
       "url": "https://dev.to/studioteatwo",
       "lang": "eng"
     },
     {
-      "title": "crieitの記事一覧",
+      "title": "crieit",
       "url": "https://crieit.net/users/studioTeaTwo",
       "lang": "ja"
     },
     {
-      "title": "Mediumの記事一覧",
+      "title": "Medium",
       "url": "https://medium.com/@studioteatwo",
       "lang": "eng"
     },
     {
-      "title": "Qiitaの記事一覧",
+      "title": "Qiita",
       "url": "https://qiita.com/search?q=user%3Astudioteatwo&sort=created",
       "lang": "ja"
     },
     {
-      "title": "はてなブログの記事一覧",
+      "title": "はてなブログ",
       "url": "http://teatwo.hatenablog.com/",
       "lang": "ja"
     }
