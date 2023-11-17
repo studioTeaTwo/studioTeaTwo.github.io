@@ -13,14 +13,12 @@ h1 {
 #container {
   width: 100%;
   position: relative;
-  padding-bottom: 20px;/*←footerの高さ*/
 }
 
 /* navigation */
 
 #tab-panel {
-  height: calc(100vh - 255px); /* 変数をサポートしていないブラウザのフォールバック */
-  height: calc(var(--vh, 1vh) - 255px);
+  height: calc(100vh - 250px);
 }
 
 nav ul li {
@@ -48,7 +46,7 @@ nav {
   max-width: 640px;
   margin-left: auto;
   margin-right: auto;
-  padding: 0 8px 25px 8px;
+  padding: 0 8px;
 }
 
 /* header/footer */
