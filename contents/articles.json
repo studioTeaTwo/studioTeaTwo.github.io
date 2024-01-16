@@ -1,6 +1,11 @@
 {
   "articles": [
     {
+      "title": "Self-Sovereign Blog",
+      "url": "https://self-sovereign.blog.teatwo.dev/",
+      "lang": "en"
+    },
+    {
       "title": "ビットコイン研究所",
       "url": "https://coinkeninfo.com/author/teatwo/",
       "lang": "ja"
@@ -18,7 +23,7 @@
     {
       "title": "dev.to",
       "url": "https://dev.to/studioteatwo",
-      "lang": "eng"
+      "lang": "en"
     },
     {
       "title": "crieit",
@@ -28,7 +33,7 @@
     {
       "title": "Medium",
       "url": "https://medium.com/@studioteatwo",
-      "lang": "eng"
+      "lang": "en"
     },
     {
       "title": "Qiita",
