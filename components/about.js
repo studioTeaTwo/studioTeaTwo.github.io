@@ -31,7 +31,12 @@ export default class AboutComponent extends HTMLElement {
   _getContentBiography() {
     return fetch('/contents/biography.json', {credentials: "include"})
       .then(res => res.json())
-      .then(json => json.description)
+      .then(json => {
+        if (window.navigator.language === 'ja') {
+          return json.description_ja;
+        }
+        return json.description_en;
+      })
       .catch(error => console.error(error));
   }
 
@@ -49,7 +54,8 @@ export default class AboutComponent extends HTMLElement {
       const li = document.createElement('li');
       const a = document.createElement('a');
       if (content.lang) {
-        content.title = `<${content.lang === 'ja' ? '日本語': 'English'}>${content.title}`
+        const ja = window.navigator.language === 'ja' ? '日本語' : 'Japanese';
+        content.title = `<${content.lang === 'ja' ? ja : 'English'}>${content.title}`
       }
       a.textContent = content.title;
       a.href = content.url;
