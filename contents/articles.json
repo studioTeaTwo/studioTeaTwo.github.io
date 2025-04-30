@@ -1,6 +1,11 @@
 {
   "articles": [
     {
+      "title": "npub.pro",
+      "url": "https://teatwo.npub.pro/",
+      "lang": "en"
+    },
+    {
       "title": "Self-Sovereign Blog",
       "url": "https://self-sovereign.blog.teatwo.dev/",
       "lang": "en"
